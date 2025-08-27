@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #f5f5f5;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+/* Headings */
+.title {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #ff6ec7;
+    margin-top: 20px;
+}
+
+.name {
+    text-align: center;
+    font-size: 2rem;
+    color: #00d4ff;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffd700;
+    font-style: italic;
+}
+
+/* Profile Picture */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* Section Titles */
+.section-title {
+    color: #ff9800;
+    margin-top: 40px;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ff9800;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+.contact, .skills, .hobbies {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.contact li, .skills li, .hobbies li {
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+
+/* Education Table */
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.edu-table th, .edu-table td {
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 12px;
+    text-align: center;
+}
+
+.edu-table th {
+    background: rgba(0, 0, 0, 0.4);
+    color: #ff6ec7;
+    font-size: 1.1rem;
+}
+
+.edu-table tr:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* Projects */
+.projects {
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+}
+
+.projects h4 {
+    color: #00d4ff;
+    margin-bottom: 5px;
+}
+
+.projects a {
+    color: #ff6ec7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* Progress Bars */
+progress {
+    width: 60%;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #444;
+    margin-left: 10px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #444;
+    border-radius: 6px;
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(90deg, #ff6ec7, #00d4ff);
+    border-radius: 6px;
+}
+
+progress::-moz-progress-bar {
+    background: linear-gradient(90deg, #ff6ec7, #00d4ff);
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 30px 0 10px 0;
+    color: #ddd;
+    font-size: 0.9rem;
+}
